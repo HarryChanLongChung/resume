@@ -1,0 +1,42 @@
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=1.5cm, top=1cm, right=1.5cm, bottom=1.5cm, footskip=.5cm} % Configure page margins with geometry
+
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-skyblue} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+\name{Long Chung Chan}{Harry}
+\address{Unit 307, 250 Lester Street, Waterloo, Ontario, Canada}
+\mobile{(+1) 226-606-1053}
+
+\email{lc6chan@uwaterloo.ca}
+\github{HarryChanLongChung}
+\linkedin{lcchan2020}
+% \skype{skypeid}
+
+\position{FPGA Researcher{\enskip\cdotp\enskip}Embedded Software Developer{\enskip\cdotp\enskip}Android Developer{\enskip\cdotp\enskip}Tech Enthusiast} % Your expertise/fields
+% \quote{``Begin with Android, the journey continues with FPGA hardware."} % A quote or statement
+
+\makecvfooter{\today}{Long C. Chan~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+
+\begin{document}
+
+\makecvheader % Print the header
+
+\input{cv-sections/education.tex}
+\input{cv-sections/academicResearch.tex}
+\input{cv-sections/experience.tex}
+\input{cv-sections/skills.tex}
+
+\end{document}
